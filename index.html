@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ustal</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="general">
+        <div class="background__image">
+          <a class="general__photographer" tabindex="0" href="#"
+            >Photo by <span class="under">Alexandr Popadin</span>
+        </a>
+        </div>
+        <rightside class="rightside">
+          <div class="rightside__logo logo">
+            <img src="./img/Avatar-UI-Unicorn-V2.svg" alt="Logo" class="logo__img"/>
+            <img src="./img/Group 3.svg" alt="UI - Unicorn" class="logo__text"/>
+          </div>
+          <h2 class="rightside__title">Nice to see you again</h2>
+          <form class="rightside__form form">
+            <div class="form__area">
+              <label>
+                <span class="form__label form__field_login">Login</span>
+                <input class="form__field" maxlength="48" placeholder="Email or phone number" required type="text"/>
+              </label>
+            </div>
+
+            <div class="form__area">
+              <label>
+                <span class="form__label">Password</span>
+                <div class="form__field-wrapper">
+                  <input
+                    class="form__field form__field_password"
+                    maxlength="48"
+                    placeholder="Enter password"
+                    required
+                    type="password"
+                  />
+                  <button class="btn pv-btn">
+                    <img
+                      src="./img/Login-Icons.svg"
+                      alt="eye"
+                      class="password-eye"
+                    />
+                  </button>
+                </div>
+              </label>
+            </div>
+
+            <div class="from__settings">
+              <div class="checkbox">
+                <input id="chk" class="checkbox__input" type="checkbox" />
+                <label for="chk" class="checkbox__label"></label>
+                <span class="checkbox__text">Remember me</span>
+              </div>
+              <a class="area__link" tabindex="0" href="#">Forgot password?</a>
+            </div>
+            <div class="form__buttons">
+              <input
+                class="form__btn form__btn_submit btn"
+                type="submit"
+                value="Sign in"
+                />
+              <span class="line form__line"></span>
+            </div>
+          </form>
+          <button class="form__btn form__btn_google btn">
+            <img
+              class="form__btn_img"
+              src="./img/Other-Pay-Method.svg"
+              alt="G"
+            />
+            <span>Or sign in with Google</span>
+          </button>
+          <div class="area__signup">
+            
+            <p class="area__question">Dont have an account?</p>
+            <a class="area__link" tabindex="0" href="#">Sign up now</a>
+          </div>
+           <div class="bottom-panel">
+            <div class="figma-parent">
+              <img class="figma-icon" alt="" src="./img/Figma.svg" />
+
+              <a class="head" href="#" target="_blank">@uiunicorn</a>
+            </div>
+            <div class="head1">© Perfect Login 2021</div>
+          </div>
+         </div>
+        </rightside>
+      </section>
+    </main>
+  </body>
+</html>
